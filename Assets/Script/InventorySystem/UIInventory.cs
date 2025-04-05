@@ -53,10 +53,4 @@ public class UIInventory : MonoBehaviour
             }
         }
     }
-
-    public void ToggleInventory()
-    {
-        inventoryPanel.SetActive(!inventoryPanel.activeSelf);
-    }
-
 }

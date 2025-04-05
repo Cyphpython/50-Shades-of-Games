@@ -8,14 +8,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Canvas Map;
     [SerializeField] private GameObject InventoryPanel;
 
-    private bool isOpen = false;
     private RectTransform Rt;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Map.enabled = false;
-        InventoryPanel.SetActive(false);
         Rt = InventoryPanel.GetComponent<RectTransform>();
     }
 
@@ -39,11 +37,5 @@ public class UIManager : MonoBehaviour
         {
             if (Map.enabled) Map.enabled = false;
         }
-    }
-
-    public void OpenInventory()
-    {
-        isOpen = !isOpen;
-        InventoryPanel.SetActive(isOpen);
     }
 }
