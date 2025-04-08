@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
 public abstract class NCP_Base : MonoBehaviour, Iinteractable
 {
     [Header("SerializedVar")]
@@ -16,24 +15,19 @@ public abstract class NCP_Base : MonoBehaviour, Iinteractable
 
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame && IsWithinInteractDistance())
+        if (Mouse.current.leftButton.wasPressedThisFrame && PlayerScript.Instance.IsWithinInteractDistance)
         {
             Interact();
         }
-        if (_interactSprite.gameObject.activeSelf && !IsWithinInteractDistance())
+        if (_interactSprite.gameObject.activeSelf && !PlayerScript.Instance.IsWithinInteractDistance)
         {
             _interactSprite.gameObject.SetActive(false);
         }
-        else if (!_interactSprite.gameObject.activeSelf && IsWithinInteractDistance())
+        else if (!_interactSprite.gameObject.activeSelf && PlayerScript.Instance.IsWithinInteractDistance)
         {
             _interactSprite.gameObject.SetActive(!false);
         }
     }
 
     public abstract void Interact();
-
-    private bool IsWithinInteractDistance()
-    {
-        if (Vector2.Distance(_playerTransform.position, transform.position) < _InteractDistance) return true; else return false;
-    }
 }
