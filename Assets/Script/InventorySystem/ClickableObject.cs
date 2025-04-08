@@ -11,4 +11,6 @@ public class ClickableObject : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -5,49 +6,110 @@ public class PlayerScript : MonoBehaviour
 {
     private Vector2 target;
     private Animator animator;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Transform npcTarget = null;
+    private float interactDistance = 1f;
+
     void Start()
     {
         animator = GetComponent<Animator>();
-        target = transform.position; //Glitch Security
+        target = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
         if (Input.GetMouseButtonDown(0))
         {
             if (EventSystem.current.IsPointerOverGameObject()) return;
 
             RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-            if (hit.collider != null && hit.collider.CompareTag("item"))
+            // Réinitialiser npcTarget par défaut
+            npcTarget = null;
+
+            if (hit.collider != null)
             {
-                ClickableObject pickup = hit.collider.GetComponent<ClickableObject>();
-                if (pickup != null)
+                // Si clic sur un item
+                if (hit.collider.CompareTag("item"))
                 {
-                    pickup.Pickup();
+                    ClickableObject pickup = hit.collider.GetComponent<ClickableObject>();
+                    if (pickup != null)
+                    {
+                        pickup.Pickup();
+                    }
+                    return;
                 }
-                return;
-            }
-
-            target = new Vector2(mousePos.x, transform.position.y);
-            animator.SetBool("IsMoving", true);
-
-            // Déterminer si le clic est à gauche ou à droite
-            if (mousePos.x > transform.position.x)
-            {
-                transform.localScale = new Vector2(1, 1);
+                // Si clic sur un NPC
+                else if (hit.collider.CompareTag("NPC"))
+                {
+                    npcTarget = hit.collider.transform;
+                    target = GetNPCStopPosition(npcTarget);
+                }
+                else
+                {
+                    // Sinon déplacement classique vers la position cliquée
+                    target = new Vector2(mousePos.x, transform.position.y);
+                }
             }
             else
             {
+                // deplacement libre si rien touché
+                target = new Vector2(mousePos.x, transform.position.y);
+            }
+            // Flip du personnage
+            if (target.x > transform.position.x)
+                transform.localScale = new Vector2(1, 1);
+            else
                 transform.localScale = new Vector2(-1, 1);
+
+            animator.SetBool("IsMoving", true);
+        }
+
+        // GESTION DU MOUVEMENT
+
+        if (npcTarget != null)
+        {
+            // Se déplacer vers le NPC
+            float distToNPC = Vector2.Distance(transform.position, npcTarget.position);
+            if (distToNPC > interactDistance)
+            {
+                transform.position = Vector2.MoveTowards(
+                    transform.position,
+                    target,
+                    Time.deltaTime * 5.0f
+                );
+            }
+            else
+            {
+                animator.SetBool("IsMoving", false);
+                FlipToward(npcTarget);
+                npcTarget = null;
             }
         }
-        transform.position = Vector2.MoveTowards(transform.position, target, Time.deltaTime * 5.0f);
-
-        if (Vector2.Distance(transform.position, target) <= 0) animator.SetBool("IsMoving", false);
-        
+        else
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target, Time.deltaTime * 5.0f);
+            if (Vector2.Distance(transform.position, target) <= 0.01f)
+                animator.SetBool("IsMoving", false);
+        }
     }
+
+    private Vector2 GetNPCStopPosition(Transform npc)
+    {
+        float direction = Mathf.Sign(npc.position.x - transform.position.x);
+        float stopX = npc.position.x - (direction * interactDistance);
+        return new Vector2(stopX, transform.position.y);
+    }
+
+    private void FlipToward(Transform targetTransform)
+    {
+        if (targetTransform == null) return;
+
+        if (targetTransform.position.x > transform.position.x)
+            transform.localScale = new Vector2(1, 1); // regarde à droite
+        else
+            transform.localScale = new Vector2(-1, 1); // regarde à gauche
+    }
+
 }
