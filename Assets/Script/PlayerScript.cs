@@ -123,5 +123,4 @@ public class PlayerScript : MonoBehaviour
         else
             transform.localScale = new Vector2(-1, 1); // regarde à gauche
     }
-
 }
