@@ -53,8 +53,16 @@ namespace Fungus
         /// </summary>
         void OnDestroy () 
         {
-            //applicationIsQuitting = true;
+            applicationIsQuitting = true;
         }
+        //Fix
+#if UNITY_EDITOR
+    [UnityEditor.InitializeOnEnterPlayMode]
+    static void ResetQuittingFlag()
+    {
+        applicationIsQuitting = false;
+    }
+#endif
 
         #region Public methods
 
