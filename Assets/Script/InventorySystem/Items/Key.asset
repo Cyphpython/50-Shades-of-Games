@@ -18,3 +18,4 @@ MonoBehaviour:
   itemDescription: "Une cl\xE9 en fer"
   IsUsable: 0
   IsKeyItem: 1
+  useBlock: 

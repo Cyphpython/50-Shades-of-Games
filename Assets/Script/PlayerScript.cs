@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -8,7 +7,6 @@ public class PlayerScript : MonoBehaviour
     private Animator animator;
     private Transform npcTarget = null;
     private float interactDistance = 1f;
-    [HideInInspector] public bool IsWithinInteractDistance = false;
 
     public static PlayerScript Instance;
 
@@ -41,7 +39,6 @@ public class PlayerScript : MonoBehaviour
                 // Si clic sur un item
                 if (hit.collider.CompareTag("item"))
                 {
-                    //IsWithinInteractDistance = false;
                     ClickableObject pickup = hit.collider.GetComponent<ClickableObject>();
                     if (pickup != null)
                     {
@@ -54,20 +51,17 @@ public class PlayerScript : MonoBehaviour
                 {
                     npcTarget = hit.collider.transform;
                     target = GetNPCStopPosition(npcTarget);
-                    IsWithinInteractDistance = true;
                 }
                 else
                 {
                     // Sinon déplacement classique vers la position cliquée
                     target = new Vector2(mousePos.x, transform.position.y);
-                    IsWithinInteractDistance = false;
                 }
             }
             else
             {
                 // deplacement libre si rien touché
                 target = new Vector2(mousePos.x, transform.position.y);
-                IsWithinInteractDistance = false;
             }
             // Flip du personnage
             if (target.x > transform.position.x)
@@ -96,6 +90,8 @@ public class PlayerScript : MonoBehaviour
             {
                 animator.SetBool("IsMoving", false);
                 FlipToward(npcTarget);
+                FungusTrigger ft = npcTarget.GetComponent<FungusTrigger>();
+                ft?.TriggerDialogue();
                 npcTarget = null;
             }
         }

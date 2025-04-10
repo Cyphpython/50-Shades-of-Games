@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1327685220080040202}
   - component: {fileID: 3520429522454510013}
   - component: {fileID: 5998256240629896513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 8245437597521695401}
   - component: {fileID: 1979219863521605430}
   - component: {fileID: 6811405400760812412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,8 @@ GameObject:
   - component: {fileID: 2702147247768551344}
   - component: {fileID: 3588434277369230547}
   - component: {fileID: 6371567769899571490}
-  m_Layer: 0
+  - component: {fileID: 3009997548978814698}
+  m_Layer: 6
   m_Name: Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,3 +273,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3009997548978814698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8959852183650837737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0626da74da0c1c448ae60750ae5a7aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedItem: {fileID: 0}

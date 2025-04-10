@@ -37,6 +37,9 @@ public class UIInventory : MonoBehaviour
             if (i < Inventory.Instance.items.Count)
             {
                 InventoryItem item = Inventory.Instance.items[i];
+                InventorySlotHandler handler = slot.GetComponent<InventorySlotHandler>();
+                if (handler != null) 
+                    handler.linkedItem = item;
                 if (item.itemIcon != null)
                 {
                     icon.sprite = item.itemIcon;

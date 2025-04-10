@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da482956384c9e40b6dbc111f1a6a3f, type: 3}
   m_Name: Copper Coin
   m_EditorClassIdentifier: 
+  ItemClass: 0
   itemName: Copper Coin
   itemIcon: {fileID: 21300000, guid: 4605338a5a51383478a6b8eb3707e90c, type: 3}
   itemDescription: A Copper Coin
   IsUsable: 0
+  IsKeyItem: 0
+  useBlock: 

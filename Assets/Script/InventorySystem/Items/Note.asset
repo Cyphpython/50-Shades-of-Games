@@ -18,3 +18,4 @@ MonoBehaviour:
   itemDescription: a note
   IsUsable: 1
   IsKeyItem: 0
+  useBlock: note

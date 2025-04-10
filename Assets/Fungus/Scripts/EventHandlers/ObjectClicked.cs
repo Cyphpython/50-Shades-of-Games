@@ -4,6 +4,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 namespace Fungus 
 {
     /// <summary>
@@ -13,8 +14,10 @@ namespace Fungus
                       "Object Clicked",
                       "The block will execute when the user clicks or taps on the clickable object.")]
     [AddComponentMenu("")]
+
     public class ObjectClicked : EventHandler
-    {   
+    {
+        public float dist;
         public class ObjectClickedEvent
         {
             public Clickable2D ClickableObject;
@@ -31,6 +34,13 @@ namespace Fungus
         [SerializeField] protected int waitFrames = 1;
 
         protected EventDispatcher eventDispatcher;
+
+        private Transform _Player;
+
+        private void Start()
+        {
+            _Player = GameObject.FindGameObjectWithTag("Player").transform;
+        }
 
         protected virtual void OnEnable()
         {
@@ -55,22 +65,34 @@ namespace Fungus
         /// input problems (e.g. auto completing Say Dialog text). A single frame delay 
         /// fixes the problem.
         /// </summary>
+        /// 
+        
+        
         protected virtual IEnumerator DoExecuteBlock(int numFrames)
         {
-            if (numFrames == 0)
+            dist = Vector2.Distance(clickableObject.transform.position, _Player.transform.position);
+            while (dist > clickableObject.activateDistance)
             {
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            if (dist <= clickableObject.activateDistance)
+            {
+                if (numFrames == 0)
+                {
+                    ExecuteBlock();
+                    yield break;
+                }
+
+                int count = Mathf.Max(waitFrames, 1);
+                while (count > 0)
+                {
+                    count--;
+                    yield return new WaitForEndOfFrame();
+                }
+
                 ExecuteBlock();
-                yield break;
             }
-
-            int count = Mathf.Max(waitFrames, 1);
-            while (count > 0)
-            {
-                count--;
-                yield return new WaitForEndOfFrame();
-            }
-
-            ExecuteBlock();
         }
 
         #region Public members

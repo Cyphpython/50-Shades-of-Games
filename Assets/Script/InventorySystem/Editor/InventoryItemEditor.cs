@@ -7,6 +7,7 @@ public class InventoryItemEditor : Editor
 {
     public override void OnInspectorGUI()
     {
+        serializedObject.Update();
         InventoryItem item = (InventoryItem)target;
 
         //Champs standarts
@@ -26,5 +27,13 @@ public class InventoryItemEditor : Editor
         EditorGUI.BeginDisabledGroup(item.IsUsable);
         item.IsKeyItem = EditorGUILayout.Toggle("Is Key Item", item.IsKeyItem);
         EditorGUI.EndDisabledGroup();
+
+        EditorGUILayout.Space();
+
+        //Block Fungus
+        SerializedProperty useBlock = serializedObject.FindProperty("useBlock");
+        EditorGUILayout.PropertyField(useBlock);
+
+        serializedObject.ApplyModifiedProperties();
     }
 }
