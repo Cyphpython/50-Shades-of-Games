@@ -10,30 +10,55 @@ public class InventoryItemEditor : Editor
         serializedObject.Update();
         InventoryItem item = (InventoryItem)target;
 
-        //Champs standarts
+        #region StandardField
         item.name = EditorGUILayout.TextField("Item Name", item.name);
         item.itemIcon = (Sprite)EditorGUILayout.ObjectField("Item Icon", item.itemIcon, typeof(Sprite), false);
         item.itemDescription = EditorGUILayout.TextField ("Description", item.itemDescription);
-
         item.ItemClass = (ItemGategory)EditorGUILayout.EnumPopup("Category", item.ItemClass);
 
         EditorGUILayout.Space();
+        #endregion
 
-        //Champs avec logique exclusive
-        EditorGUI.BeginDisabledGroup(item.IsKeyItem);
-        item.IsUsable = EditorGUILayout.Toggle("Is Usable", item.IsUsable);
-        EditorGUI.EndDisabledGroup();
+        #region Note Field
+        SerializedProperty IsANote = serializedObject.FindProperty("_IsANote");
+        SerializedProperty Usable = serializedObject.FindProperty("_IsUsable");
+        SerializedProperty KeyItem = serializedObject.FindProperty("_IsKeyItem");
 
-        EditorGUI.BeginDisabledGroup(item.IsUsable);
-        item.IsKeyItem = EditorGUILayout.Toggle("Is Key Item", item.IsKeyItem);
-        EditorGUI.EndDisabledGroup();
+        EditorGUILayout.PropertyField(IsANote, new GUIContent("Is a Note"));
+
+        if (IsANote.boolValue)
+        {
+            Usable.boolValue = true;
+            KeyItem.boolValue = false;
+            EditorGUILayout.HelpBox("A Note is alway usable no matter what", MessageType.Info);
+        }
 
         EditorGUILayout.Space();
+        #endregion
 
-        //Block Fungus
-        SerializedProperty useBlock = serializedObject.FindProperty("useBlock");
-        EditorGUILayout.PropertyField(useBlock);
+        #region ExlusiveLogicField
+        if (!item.IsANote)
+        {
+            
+            EditorGUI.BeginDisabledGroup(item.IsKeyItem);
+            EditorGUILayout.PropertyField(Usable, new GUIContent("Is Usable"));
+            EditorGUI.EndDisabledGroup();
 
+            EditorGUI.BeginDisabledGroup(item.IsUsable);
+            EditorGUILayout.PropertyField(KeyItem, new GUIContent("Is Key Item"));
+            EditorGUI.EndDisabledGroup();
+
+        }
+        EditorGUILayout.Space();
+        #endregion
+
+        #region Block Fungus
+        if (item.IsUsable)
+        {
+            SerializedProperty useBlock = serializedObject.FindProperty("useBlock");
+            EditorGUILayout.PropertyField(useBlock);
+        }
+        #endregion
         serializedObject.ApplyModifiedProperties();
     }
 }

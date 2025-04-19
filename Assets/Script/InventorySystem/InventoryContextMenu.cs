@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using Fungus;
 
 public class InventoryContextMenu : MonoBehaviour
@@ -18,13 +17,17 @@ public class InventoryContextMenu : MonoBehaviour
     {
         Instance = this;
         panel.SetActive(false);
+        FlowchartManager.SetFlowchart(fl);
     }
 
     public void Show(InventoryItem item, Vector2 screenPos)
     {
+        if (item == null) return;
+
         currentItem = item;
         panel.SetActive(true);
 
+        //Calculate menu position without layout overflowing
         RectTransform rect = panel.GetComponent<RectTransform>();
         float width = rect.rect.width;
         float height = rect.rect.height;
@@ -43,15 +46,14 @@ public class InventoryContextMenu : MonoBehaviour
         useButton.onClick.AddListener(() =>
         {
             panel.SetActive(false);
-            fl?.ExecuteBlock(item.useBlock);
-            ExamineUI.Instance.Hide();
+            item?.OnUse();
+            ExamineUI.Instance?.Hide();
         });
 
         examineButton.onClick.AddListener(() =>
         {
             panel.SetActive(false);
-            ExamineUI.Instance.Show(item.itemIcon, item.itemDescription);
-            //if (ExamineUI.Instance.panel.activeSelf == true) ExamineUI.Instance.Hide();
+            ExamineUI.Instance?.Show(item.itemIcon, item.itemDescription);
         });
     }
     public void Hide()

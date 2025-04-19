@@ -16,6 +16,7 @@ MonoBehaviour:
   itemName: Copper Coin
   itemIcon: {fileID: 21300000, guid: 4605338a5a51383478a6b8eb3707e90c, type: 3}
   itemDescription: A Copper Coin
-  IsUsable: 0
-  IsKeyItem: 0
+  _IsUsable: 0
+  _IsKeyItem: 0
+  _IsANote: 0
   useBlock: 
