@@ -22,8 +22,7 @@ namespace Fungus
         [Tooltip("Use the UI Event System to check for clicks. Clicks that hit an overlapping UI object will be ignored. Camera must have a PhysicsRaycaster component, or a Physics2DRaycaster for 2D colliders.")]
         [SerializeField] protected bool useEventSystem;
 
-        [Header("MyVar")]
-        public float activateDistance;
+        
 
         protected virtual void ChangeCursor(Texture2D cursorTexture)
         {

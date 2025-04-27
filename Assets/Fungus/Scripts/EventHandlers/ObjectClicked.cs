@@ -70,29 +70,20 @@ namespace Fungus
         
         protected virtual IEnumerator DoExecuteBlock(int numFrames)
         {
-            dist = Vector2.Distance(clickableObject.transform.position, _Player.transform.position);
-            while (dist > clickableObject.activateDistance)
+            if (numFrames == 0)
             {
-                yield return new WaitForSeconds(0.1f);
-            }
-
-            if (dist <= clickableObject.activateDistance)
-            {
-                if (numFrames == 0)
-                {
-                    ExecuteBlock();
-                    yield break;
-                }
-
-                int count = Mathf.Max(waitFrames, 1);
-                while (count > 0)
-                {
-                    count--;
-                    yield return new WaitForEndOfFrame();
-                }
-
                 ExecuteBlock();
+                yield break;
             }
+
+            int count = Mathf.Max(waitFrames, 1);
+            while (count > 0)
+            {
+                count--;
+                yield return new WaitForEndOfFrame();
+            }
+
+            ExecuteBlock();
         }
 
         #region Public members
