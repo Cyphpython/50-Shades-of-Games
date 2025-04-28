@@ -58,6 +58,10 @@ public class InventoryItemEditor : Editor
             SerializedProperty useBlock = serializedObject.FindProperty("useBlock");
             EditorGUILayout.PropertyField(useBlock);
         }
+        if (item.IsKeyItem)
+        {
+            item.condition = EditorGUILayout.TextField("Unlock Condition Name", item.condition); ;
+        }
         #endregion
         serializedObject.ApplyModifiedProperties();
     }

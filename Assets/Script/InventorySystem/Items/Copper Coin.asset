@@ -19,4 +19,5 @@ MonoBehaviour:
   _IsUsable: 0
   _IsKeyItem: 0
   _IsANote: 0
+  condition: 
   useBlock: 

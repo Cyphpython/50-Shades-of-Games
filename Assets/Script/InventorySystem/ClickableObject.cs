@@ -8,9 +8,8 @@ public class ClickableObject : MonoBehaviour
     {
         if (Inventory.Instance.AddItem(itemToGive))
         {
+            itemToGive.OnPickup();
             Destroy(gameObject);
         }
     }
-
-    
 }

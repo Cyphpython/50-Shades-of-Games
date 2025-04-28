@@ -15,6 +15,7 @@ public class InventoryItem : ScriptableObject, IInventoryItem
     [SerializeField]private bool _IsANote;
 
     //Fungus
+    public string condition;
     public string useBlock;
 
     //Implementation de l'interface
@@ -27,12 +28,19 @@ public class InventoryItem : ScriptableObject, IInventoryItem
     public bool IsANote => _IsANote;
 
 
-    
+    public void OnPickup()
+    {
+        if (IsKeyItem && !string.IsNullOrEmpty(condition)) FlowchartManager.SetBoolVar(condition);
+    }
+
 
     public void OnUse()
     {
-        if (IsKeyItem) return;
-
+        if (IsKeyItem)
+        {
+            return;
+        }
+        
         if (IsUsable)
         {
 

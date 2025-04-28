@@ -11,4 +11,6 @@ public interface IInventoryItem
     bool IsANote { get;}
 
     void OnUse();
+
+    void OnPickup();
 }

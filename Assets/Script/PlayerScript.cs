@@ -43,18 +43,12 @@ public class PlayerScript : MonoBehaviour
                     }
                     return;
                 }
-                else if (hit.collider.CompareTag("NPC"))
+                else if (hit.collider.CompareTag("NPC") || hit.collider.CompareTag("Waypoint"))
                 {
                     npcTarget = hit.collider.transform;
                     FungusTrigger ft = npcTarget.GetComponent<FungusTrigger>();
-                    ft?.TriggerDialogue();
+                    ft?.Trigger();
                     npcTarget = null;
-                }
-                else if (hit.collider.CompareTag("Waypoint"))
-                {
-                    //changing to the appropriate scene
-                    
-
                 }
             }
         }

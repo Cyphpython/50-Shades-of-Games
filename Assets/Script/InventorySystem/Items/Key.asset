@@ -17,6 +17,7 @@ MonoBehaviour:
   itemIcon: {fileID: 21300000, guid: e30e7f1121c83ed469e6242c11d18e05, type: 3}
   itemDescription: "Une cl\xE9 en fer"
   _IsUsable: 0
-  _IsKeyItem: 0
+  _IsKeyItem: 1
   _IsANote: 0
+  condition: CastleUnlocked
   useBlock: 
