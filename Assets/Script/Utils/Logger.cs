@@ -5,6 +5,16 @@ using UnityEngine;
 public class Logger : MonoBehaviour
 {
     private static Queue<string> _queue = new Queue<string>(6);
+    private bool _showLog = false;
+
+    private void Awake()
+    {
+        if (!Application.isEditor)
+        {
+            enabled = false;
+            return;
+        }
+    }
 
     private void OnEnable()
     {
@@ -18,6 +28,15 @@ public class Logger : MonoBehaviour
 
     private void OnGUI()
     {
+        const float buttonWidth = 120f;
+        const float buttonHeight = 30f;
+
+        //button to show/hide logs
+        if (GUI.Button(new Rect(1040f, 10f, buttonWidth, buttonHeight), _showLog ? "Hide Logs" : "Show Logs"))
+        {
+            _showLog = !_showLog;
+        }
+        if (!_showLog) return;
         GUILayout.BeginArea(new Rect(0f, (float)(Screen.height - 140), (float)Screen.width, 140));
         foreach (string text in global::Logger._queue)
         {
@@ -28,7 +47,7 @@ public class Logger : MonoBehaviour
 
     private void HandleLog(string message, string stackTrace, LogType type)
     {
-        global::Logger._queue.Enqueue(Time.time.ToString() + " _ " + message);
-        if (global::Logger._queue.Count > 5 ) global::Logger._queue.Dequeue();
+        _queue.Enqueue($"{Time.time:F2}_ {message}");
+        if (_queue.Count > 5) _queue.Dequeue();
     }
 }

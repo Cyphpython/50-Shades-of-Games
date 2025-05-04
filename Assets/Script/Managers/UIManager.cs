@@ -1,12 +1,15 @@
-using Unity.VisualScripting;
+using Fungus;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class UIManager : MonoBehaviour
 {
     [Header("Map & Menu")]
     [SerializeField] private Canvas Map;
     [SerializeField] private GameObject InventoryPanel;
+    [SerializeField] private string SaveBlock;
+
+    public Flowchart _FL;
 
     private RectTransform Rt;
 
@@ -36,6 +39,14 @@ public class UIManager : MonoBehaviour
         if (Map != null)
         {
             if (Map.enabled) Map.enabled = false;
+        }
+    }
+
+    public void SaveButton()
+    {
+        if (SaveBlock  != null && _FL != null)
+        {
+            _FL.ExecuteBlock(SaveBlock);
         }
     }
 }

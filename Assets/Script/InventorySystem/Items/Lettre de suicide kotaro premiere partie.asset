@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da482956384c9e40b6dbc111f1a6a3f, type: 3}
-  m_Name: Key
+  m_Name: Lettre de suicide kotaro premiere partie
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: "Cl\xE9 en fer"
-  itemIcon: {fileID: 21300000, guid: e30e7f1121c83ed469e6242c11d18e05, type: 3}
-  itemDescription: "Une cl\xE9 en fer"
-  _IsUsable: 0
-  _IsKeyItem: 1
-  _IsANote: 0
-  condition: CastleUnlocked
+  itemName: 
+  itemIcon: {fileID: 21300000, guid: 615ecf391b0ba0b40a9c3882ac5e6afc, type: 3}
+  itemDescription: 
+  _IsUsable: 1
+  _IsKeyItem: 0
+  _IsANote: 1
+  condition: 
   useBlock: 
