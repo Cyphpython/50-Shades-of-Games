@@ -45,4 +45,10 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+
+    public bool HasItem(InventoryItem item)
+    {
+        if (items.Contains(item)) { return true; }
+        else return false;
+    }
 }

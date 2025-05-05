@@ -30,6 +30,14 @@ public static class FlowchartManager
 
     }
 
+    public static Fungus.BooleanVariable GetBoolVar(string VarName)
+    {
+        if (string.IsNullOrEmpty(VarName)) { Debug.LogError("variable is null or empty !!"); return null; }
+        if (_flowchart == null) { Debug.LogError("No Flowchart Assigned !!"); return null; }
+        Fungus.BooleanVariable var = _flowchart.GetVariable<Fungus.BooleanVariable>(VarName);
+        if (var != null) { return var; }
+        else { Debug.LogError($"Flowchart found but variable '{VarName}' does not exist"); return null; }
+    }
    
     //optional funct
     public static void SetFlowchart(Flowchart flowchart) { _flowchart = flowchart; }
