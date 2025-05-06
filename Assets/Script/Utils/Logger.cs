@@ -32,7 +32,7 @@ public class Logger : MonoBehaviour
         const float buttonHeight = 30f;
 
         //button to show/hide logs
-        if (GUI.Button(new Rect(1040f, 10f, buttonWidth, buttonHeight), _showLog ? "Hide Logs" : "Show Logs"))
+        if (GUI.Button(new Rect(900f, 10f, buttonWidth, buttonHeight), _showLog ? "Hide Logs" : "Show Logs"))
         {
             _showLog = !_showLog;
         }

@@ -60,7 +60,10 @@ public class InventoryItemEditor : Editor
         }
         if (item.IsKeyItem)
         {
-            item.condition = EditorGUILayout.TextField("Unlock Condition Name", item.condition); ;
+            item.condition = EditorGUILayout.TextField(
+                new GUIContent("BooleanVariable Name", "Name of the BooleanVariable that will be set to true when pickup in a scene"), 
+                item.condition
+                );
         }
         #endregion
         serializedObject.ApplyModifiedProperties();
