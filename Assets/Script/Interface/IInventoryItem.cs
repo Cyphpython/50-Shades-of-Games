@@ -10,6 +10,7 @@ public interface IInventoryItem
     bool IsKeyItem { get;}
     bool IsANote { get;}
 
+
     void OnUse();
 
     void OnPickup();

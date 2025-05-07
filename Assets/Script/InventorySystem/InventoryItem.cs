@@ -10,9 +10,9 @@ public class InventoryItem : ScriptableObject, IInventoryItem
     public string itemName;
     public Sprite itemIcon;
     public string itemDescription;
-    [SerializeField]private bool _IsUsable;
-    [SerializeField]private bool _IsKeyItem;
-    [SerializeField]private bool _IsANote;
+    [SerializeField] private bool _IsUsable;
+    [SerializeField] private bool _IsKeyItem;
+    [SerializeField] private bool _IsANote;
 
     //Fungus
     public string condition;

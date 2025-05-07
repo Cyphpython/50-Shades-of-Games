@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemClass: 0
   itemName: 
-  itemIcon: {fileID: 21300000, guid: 615ecf391b0ba0b40a9c3882ac5e6afc, type: 3}
-  itemDescription: 
-  _IsUsable: 1
-  _IsKeyItem: 0
-  _IsANote: 1
+  itemIcon: {fileID: 21300000, guid: 4b61215c56174cb489119b1357a5b77c, type: 3}
+  itemDescription: premiere partie de la lettre de suicide de kotaro
+  CombineWith: {fileID: 11400000, guid: f3ea6940fcec1f943b17d685d9f8730b, type: 2}
+  ResultItem: {fileID: 11400000, guid: 107a76c3dc480894db4da12352411c52, type: 2}
+  _IsUsable: 0
+  _IsKeyItem: 1
+  _IsANote: 0
+  _IsCombinable: 1
   condition: 
   useBlock: 

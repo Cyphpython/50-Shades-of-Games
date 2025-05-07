@@ -39,10 +39,7 @@ public class Inventory : MonoBehaviour
         if (items.Contains(item))
         {
             items.Remove(item);
-            if (UIInventory.UiInstance != null)
-            {
-                UIInventory.UiInstance.RefreshInventory();
-            }
+            UIInventory.UiInstance?.RefreshInventory();
         }
     }
 

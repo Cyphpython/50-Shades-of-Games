@@ -25,6 +25,12 @@ public class UIInventory : MonoBehaviour
 
     public void RefreshInventory()
     {
+        foreach (Transform child in slotContainer.GetComponentInChildren<Transform>())
+        {
+            if (child != slotContainer)
+                child.SetParent(slotContainer);
+        }
+
         foreach (Transform child in slotContainer)
         {
             Destroy(child.gameObject);

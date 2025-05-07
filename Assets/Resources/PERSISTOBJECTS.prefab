@@ -3350,6 +3350,13 @@ GameObject:
   - component: {fileID: 5250809435977041763}
   - component: {fileID: 543691247220656684}
   - component: {fileID: 4872803432260305571}
+  - component: {fileID: 6571192244069261989}
+  - component: {fileID: 3762189047358792624}
+  - component: {fileID: 2980868189965869851}
+  - component: {fileID: 583098683815141759}
+  - component: {fileID: 2210210001166437198}
+  - component: {fileID: 1085648972841462238}
+  - component: {fileID: 8177543520767958646}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3385,19 +3392,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -4591.9385, y: 555.76825}
+  scrollPos: {x: 463.24072, y: -133.40207}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.66999984
+  zoom: 0.6099999
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2980868189965869851}
+  selectedCommands:
+  - {fileID: 8177543520767958646}
   variables:
   - {fileID: 2355350824680488037}
   - {fileID: 234478532551060642}
@@ -38050,7 +38059,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 329
+  itemId: 553
   blockName: Kamuro Dialogue
   description: quete Jorogumo jour1Night
   eventHandler: {fileID: 0}
@@ -42689,7 +42698,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 186
+  itemId: 554
   blockName: DialoguePoissonier (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -43457,7 +43466,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 190
+  itemId: 555
   blockName: Take poisson (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -44222,7 +44231,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 196
+  itemId: 556
   blockName: Dialogue Forgeron (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -44654,7 +44663,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 197
+  itemId: 557
   blockName: "Dialogue Homme Bourr\xE9 (Copy)"
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -45086,7 +45095,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 203
+  itemId: 558
   blockName: Give Cruche de Sake (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -45534,7 +45543,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 206
+  itemId: 559
   blockName: Dedalles cul de sac interaction (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -47173,7 +47182,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 241
+  itemId: 560
   blockName: Use poisson (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -48274,7 +48283,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 242
+  itemId: 561
   blockName: Use Cruche de Sake (Copy)
   description: quete bakeneko jour2Day
   eventHandler: {fileID: 0}
@@ -49692,7 +49701,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 269
+  itemId: 562
   blockName: Dialogue Barman 2 (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -49915,7 +49924,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 273
+  itemId: 563
   blockName: Fukuro Dialogue  3 (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -50664,7 +50673,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 281
+  itemId: 564
   blockName: Dialogue PNJ Fukuro Question 1 (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -51264,7 +51273,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 306
+  itemId: 565
   blockName: Dialogue PNJ Fukuro Question 2 (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -51864,7 +51873,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 307
+  itemId: 566
   blockName: Dialogue PNJ Fukuro Question 3 (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -52464,7 +52473,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 308
+  itemId: 567
   blockName: Dialogue PNJ Fukuro Question 4 (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -53064,7 +53073,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 294
+  itemId: 568
   blockName: Fukuro Dialogue 4 (Copy)
   description: Question
   eventHandler: {fileID: 0}
@@ -53829,7 +53838,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 301
+  itemId: 569
   blockName: Dedalles Cul de sac seconde interaction (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -54637,7 +54646,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 303
+  itemId: 570
   blockName: "Use Alcool Etrang\xE9 (Copy)"
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -55313,7 +55322,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 313
+  itemId: 571
   blockName: Choix Bakeneko (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -56105,7 +56114,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 479
+  itemId: 572
   blockName: Dialogue Bakeneko (Copy)
   description: Jour 2 Nuit Bakeneko
   eventHandler: {fileID: 0}
@@ -57395,7 +57404,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 260
+  itemId: 573
   blockName: Dialogue Forgeron (Rejet) (Copy)
   description: quete Jorogumo jour2Day
   eventHandler: {fileID: 0}
@@ -57827,7 +57836,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 256
+  itemId: 574
   blockName: Charretes (Copy)
   description: quete Jorogumo jour2Day
   eventHandler: {fileID: 0}
@@ -58259,7 +58268,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 259
+  itemId: 575
   blockName: Dialogue Femme Etrange (Copy)
   description: quete Jorogumo jour2Day
   eventHandler: {fileID: 0}
@@ -58859,7 +58868,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 264
+  itemId: 576
   blockName: Dialogue Jorogumo (Copy)
   description: quete Jorogumo jour2Day
   eventHandler: {fileID: 0}
@@ -59816,7 +59825,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 329
+  itemId: 577
   blockName: Guard Dialogue (Copy)
   description: quete Jorogumo jour2Night
   eventHandler: {fileID: 0}
@@ -60416,7 +60425,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 329
+  itemId: 578
   blockName: Kamuro Dialogue (Copy)
   description: quete Jorogumo jour2Night
   eventHandler: {fileID: 0}
@@ -61181,7 +61190,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 340
+  itemId: 579
   blockName: Use Shakuhachi (Copy)
   description: quete Jorogumo jour2Night
   eventHandler: {fileID: 0}
@@ -62055,7 +62064,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 342
+  itemId: 580
   blockName: Hide In Bush (Copy)
   description: quete Jorogumo jour2Night
   eventHandler: {fileID: 0}
@@ -63140,7 +63149,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 353
+  itemId: 581
   blockName: Dialogue Jorogumo 2 (Copy)
   description: quete Jorogumo jour2Night
   eventHandler: {fileID: 0}
@@ -63898,7 +63907,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 361
+  itemId: 582
   blockName: Choix Jorogumo (Copy)
   description: quete Jorogumo jour2Night
   eventHandler: {fileID: 0}
@@ -65811,6 +65820,149 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &6571192244069261989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 17.08722
+    y: 495.6972
+    width: 186.3
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 583
+  blockName: Lettre de suicide Kotaro
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 3762189047358792624}
+  suppressAllAutoSelections: 0
+--- !u!114 &3762189047358792624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 584
+  indentLevel: 0
+  storyText: lorem ipsum dolor sit amet
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2980868189965869851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -35.371796
+    y: 608.812
+    width: 110.19
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 585
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 583098683815141759}
+  commandList:
+  - {fileID: 2210210001166437198}
+  - {fileID: 1085648972841462238}
+  - {fileID: 8177543520767958646}
+  suppressAllAutoSelections: 0
+--- !u!114 &583098683815141759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 2980868189965869851}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &2210210001166437198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a80e90128003e84299920acb49e7408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 586
+  indentLevel: 0
+  item: {fileID: 11400000, guid: 4d662a011dd3c8444b57cda97a27e3a0, type: 2}
+--- !u!114 &1085648972841462238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a80e90128003e84299920acb49e7408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 588
+  indentLevel: 0
+  item: {fileID: 11400000, guid: f31111547d89a064f99263170c11f625, type: 2}
+--- !u!114 &8177543520767958646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a80e90128003e84299920acb49e7408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 589
+  indentLevel: 0
+  item: {fileID: 11400000, guid: e7dc14126ff6ad143a96b6e0552ab07b, type: 2}
 --- !u!1 &7412627236150949754
 GameObject:
   m_ObjectHideFlags: 0
