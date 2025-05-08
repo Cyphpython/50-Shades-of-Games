@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Poisson
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemDescription: 
+  itemName: Poisson
+  itemIcon: {fileID: 21300000, guid: adf92f5459022124193e381473dbcce6, type: 3}
+  itemDescription: Un poisson
   _IsUsable: 1
   _IsKeyItem: 0
   _IsANote: 0

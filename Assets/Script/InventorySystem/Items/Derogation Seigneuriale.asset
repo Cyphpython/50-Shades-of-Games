@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Derogation Seigneuriale
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 21300000, guid: e577f30c6bd976a429addedf4c4ad662, type: 3}
-  itemDescription: 
+  itemName: Derogation Seigneuriale
+  itemIcon: {fileID: 21300000, guid: 4b61215c56174cb489119b1357a5b77c, type: 3}
+  itemDescription: une derogation su seigneur
   _IsUsable: 0
   _IsKeyItem: 1
   _IsANote: 0

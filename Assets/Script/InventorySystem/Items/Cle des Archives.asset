@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da482956384c9e40b6dbc111f1a6a3f, type: 3}
-  m_Name: Registre Yokai
+  m_Name: Cle des Archives
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemDescription: 
+  itemName: Cle des Archives
+  itemIcon: {fileID: 21300000, guid: a6c10312421cb5e438d8b9edaad2db28, type: 3}
+  itemDescription: "la Cl\xE9 des Archives du palais"
   _IsUsable: 0
   _IsKeyItem: 1
   _IsANote: 0

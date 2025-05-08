@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da482956384c9e40b6dbc111f1a6a3f, type: 3}
-  m_Name: Lettre de suicide kotaro premiere partie
+  m_Name: Cle Chambre Kotaro
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 21300000, guid: 4b61215c56174cb489119b1357a5b77c, type: 3}
-  itemDescription: premiere partie de la lettre de suicide de kotaro
-  CombineWith: {fileID: 11400000, guid: f3ea6940fcec1f943b17d685d9f8730b, type: 2}
-  ResultItem: {fileID: 11400000, guid: 107a76c3dc480894db4da12352411c52, type: 2}
+  itemName: "Cl\xE9 Chambre Kotaro"
+  itemIcon: {fileID: 21300000, guid: e30e7f1121c83ed469e6242c11d18e05, type: 3}
+  itemDescription: "la cl\xE9 de la chambre de Kotaro"
   _IsUsable: 0
   _IsKeyItem: 1
   _IsANote: 0
-  _IsCombinable: 1
   condition: 
   useBlock: 

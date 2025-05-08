@@ -11,7 +11,7 @@ public class InventoryItemEditor : Editor
         InventoryItem item = (InventoryItem)target;
 
         #region StandardField
-        item.name = EditorGUILayout.TextField("Item Name", item.name);
+        item.itemName = EditorGUILayout.TextField("Item Name", item.itemName);
         item.itemIcon = (Sprite)EditorGUILayout.ObjectField("Item Icon", item.itemIcon, typeof(Sprite), false);
         item.itemDescription = EditorGUILayout.TextField ("Description", item.itemDescription);
         item.ItemClass = (ItemGategory)EditorGUILayout.EnumPopup("Category", item.ItemClass);
@@ -30,7 +30,7 @@ public class InventoryItemEditor : Editor
         {
             Usable.boolValue = true;
             KeyItem.boolValue = false;
-            EditorGUILayout.HelpBox("A Note is alway usable no matter what", MessageType.Info);
+            EditorGUILayout.HelpBox("A Note is always usable no matter what", MessageType.Info);
         }
 
         EditorGUILayout.Space();

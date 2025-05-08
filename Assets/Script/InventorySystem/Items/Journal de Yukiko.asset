@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Journal de Yukiko
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 21300000, guid: 6b22156af64babe4f9bff6441c5b942f, type: 3}
-  itemDescription: 
+  itemName: Journal de Yukiko
+  itemIcon: {fileID: 21300000, guid: 1c82fa18a9230df4f9a0aa981fe3a341, type: 3}
+  itemDescription: Mon journal
   _IsUsable: 0
-  _IsKeyItem: 0
+  _IsKeyItem: 1
   _IsANote: 0
   condition: 
   useBlock: 

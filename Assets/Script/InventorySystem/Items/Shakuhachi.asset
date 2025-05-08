@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Shakuhachi
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemDescription: 
+  itemName: Shakuhachi
+  itemIcon: {fileID: 21300000, guid: 02ff976d39577774bb44b83610e61dec, type: 3}
+  itemDescription: Un shakuhachi
   _IsUsable: 1
   _IsKeyItem: 0
   _IsANote: 0
