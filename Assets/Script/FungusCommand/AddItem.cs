@@ -11,6 +11,7 @@ public class AddItem : Command
         if (item != null)
         {
             Inventory.Instance?.AddItem(item);
+            
         }
         else
         {
