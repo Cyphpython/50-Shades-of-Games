@@ -3603,7 +3603,6 @@ GameObject:
   - component: {fileID: 1236646146936328083}
   - component: {fileID: 1127011338513385302}
   - component: {fileID: 3873189643030214839}
-  - component: {fileID: 7290080118108291768}
   - component: {fileID: 3468688904811345496}
   - component: {fileID: 1201393912016241948}
   - component: {fileID: 8595745340750439454}
@@ -3940,11 +3939,16 @@ GameObject:
   - component: {fileID: 8127343284121263089}
   - component: {fileID: 102888340705361990}
   - component: {fileID: 3986453512070501521}
-  - component: {fileID: 8821823408011099949}
-  - component: {fileID: 8276903791758574959}
-  - component: {fileID: 7691641428745830108}
   - component: {fileID: 2916568822205759577}
   - component: {fileID: 8237178605602644927}
+  - component: {fileID: 6930674360825453912}
+  - component: {fileID: 500476962390909016}
+  - component: {fileID: 2488004273599931504}
+  - component: {fileID: 1566510278009916198}
+  - component: {fileID: 2263672829284426181}
+  - component: {fileID: 4741925744154870176}
+  - component: {fileID: 1715026048199182852}
+  - component: {fileID: 7305862589007494421}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3980,7 +3984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1244.546, y: 390.3336}
+  scrollPos: {x: -1544.546, y: 523.1461}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 278
@@ -3992,7 +3996,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2119573389475416890}
+  - {fileID: 7960728481546726548}
   selectedCommands: []
   variables:
   - {fileID: 2355350824680488037}
@@ -33352,7 +33356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2210.343
+    x: 2211.9055
     y: 83.325745
     width: 153.11
     height: 40
@@ -33368,7 +33372,7 @@ MonoBehaviour:
   - {fileID: 2927258759555445478}
   - {fileID: 1016823788678999679}
   - {fileID: 746625074834410231}
-  - {fileID: 7290080118108291768}
+  - {fileID: 2488004273599931504}
   - {fileID: 1127011338513385302}
   - {fileID: 3873189643030214839}
   suppressAllAutoSelections: 0
@@ -34063,21 +34067,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &7290080118108291768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7308938338712638324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a80e90128003e84299920acb49e7408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 300
-  indentLevel: 2
-  item: {fileID: 11400000, guid: 4acab359bf975c24e985d4ae05391e2d, type: 2}
 --- !u!114 &3468688904811345496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68922,6 +68911,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 7217424171360728906}
+  - {fileID: 1566510278009916198}
   - {fileID: 3622091769049285508}
   suppressAllAutoSelections: 0
 --- !u!114 &7217424171360728906
@@ -69004,6 +68994,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 5639887706002968519}
   - {fileID: 164771615754766256}
+  - {fileID: 2263672829284426181}
   suppressAllAutoSelections: 0
 --- !u!114 &5639887706002968519
 MonoBehaviour:
@@ -69085,6 +69076,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 102888340705361990}
   - {fileID: 3986453512070501521}
+  - {fileID: 4741925744154870176}
   suppressAllAutoSelections: 0
 --- !u!114 &102888340705361990
 MonoBehaviour:
@@ -69100,8 +69092,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 675
   indentLevel: 0
-  storyText: "Je ne suis ni l\u2019un ni l\u2019autre, mais mon deuxi\xE8me se nourrit
-    du premier et je vis dans l\u2019eau. Qui suis-je\_?"
+  storyText: "Je suis une dame avec une lame en fer comme t\xEAte et un long b\xE2ton
+    en tant que corps, que suis-je\_?"
   description: 
   character: {fileID: 5299923510795861297}
   portrait: {fileID: 0}
@@ -69128,87 +69120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 676
   indentLevel: 0
-  text: Un Poisson-Chat
-  description: 
-  targetBlock: {fileID: 8821823408011099949}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &8821823408011099949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7308938338712638324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 2311.0818
-    y: -298.58942
-    width: 158.09
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 677
-  blockName: Question 4 Correct
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 8276903791758574959}
-  - {fileID: 7691641428745830108}
-  suppressAllAutoSelections: 0
---- !u!114 &8276903791758574959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7308938338712638324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 678
-  indentLevel: 0
-  storyText: "Je suis une dame avec une lame en fer comme t\xEAte et un long b\xE2ton
-    en tant que corps, que suis-je\_? "
-  description: 
-  character: {fileID: 5299923510795861297}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &7691641428745830108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7308938338712638324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 679
-  indentLevel: 0
   text: Une Naginata
   description: 
   targetBlock: {fileID: 2916568822205759577}
@@ -69234,8 +69145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2252.2473
-    y: -387.65286
+    x: 2247.5598
+    y: -336.09036
     width: 152.57
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -69246,6 +69157,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8237178605602644927}
+  - {fileID: 7305862589007494421}
+  - {fileID: 500476962390909016}
   suppressAllAutoSelections: 0
 --- !u!114 &8237178605602644927
 MonoBehaviour:
@@ -69263,6 +69176,202 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Bravo\_! tu d\xE9passes de loin mes attentes\_! T\u2019a t\u2019ont
     aid\xE9\_?"
+  description: 
+  character: {fileID: 5299923510795861297}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &6930674360825453912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 2042.9836
+    y: -135.64606
+    width: 143.23001
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 683
+  blockName: Fukuro incorrect
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1715026048199182852}
+  suppressAllAutoSelections: 0
+--- !u!114 &500476962390909016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a80e90128003e84299920acb49e7408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 684
+  indentLevel: 0
+  item: {fileID: 11400000, guid: 4acab359bf975c24e985d4ae05391e2d, type: 2}
+--- !u!114 &2488004273599931504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 685
+  indentLevel: 2
+  text: Un Cheval
+  description: 
+  targetBlock: {fileID: 6930674360825453912}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1566510278009916198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 686
+  indentLevel: 0
+  text: Mon Nom
+  description: 
+  targetBlock: {fileID: 6930674360825453912}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &2263672829284426181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 687
+  indentLevel: 0
+  text: Un Poisson-Lanterne
+  description: 
+  targetBlock: {fileID: 6930674360825453912}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &4741925744154870176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 688
+  indentLevel: 0
+  text: Une Lance
+  description: 
+  targetBlock: {fileID: 6930674360825453912}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1715026048199182852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 689
+  indentLevel: 0
+  storyText: "Mauvaise r\xE9ponse, retente ta chance."
+  description: 
+  character: {fileID: 5299923510795861297}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &7305862589007494421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7308938338712638324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 690
+  indentLevel: 0
+  storyText: Peu importe comme promis voila l'alcool.
   description: 
   character: {fileID: 5299923510795861297}
   portrait: {fileID: 0}
