@@ -13,6 +13,7 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         slotHandler = GetComponent<InventorySlotHandler>();
         if (slotHandler != null) { item = slotHandler.linkedItem; } else { Debug.LogError("no slothandler"); }
         #region ErrorHandling
+        
         if (item == null) { Debug.LogError("no item"); return; }
         else if (string.IsNullOrEmpty(item.itemDescription)) { Debug.LogError("No description"); return; }
         else if (string.IsNullOrEmpty(item.itemName)) { Debug.LogError("No name"); return; }

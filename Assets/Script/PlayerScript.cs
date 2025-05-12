@@ -28,7 +28,7 @@ public class PlayerScript : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-            // Réinitialiser npcTarget par défaut
+            // Rï¿½initialiser npcTarget par dï¿½faut
             npcTarget = null;
 
             if (hit.collider != null)

@@ -7,6 +7,7 @@ public class Logger : MonoBehaviour
     private static Queue<string> _queue = new Queue<string>(6);
     private bool _showLog = false;
 
+
     private void Awake()
     {
         if (!Application.isEditor)
