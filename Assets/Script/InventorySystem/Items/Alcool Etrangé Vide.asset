@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: "Alcool Etrang\xE9 Vide"
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemDescription: 
+  itemName: "Alcool Etrang\xE9 Vide"
+  itemIcon: {fileID: 21300000, guid: 404da3fa7d1b578d3ad2318e5321598d, type: 3}
+  itemDescription: un bouteille vide d'alcool etrange
   _IsUsable: 0
-  _IsKeyItem: 0
+  _IsKeyItem: 1
   _IsANote: 0
   condition: 
   useBlock: 

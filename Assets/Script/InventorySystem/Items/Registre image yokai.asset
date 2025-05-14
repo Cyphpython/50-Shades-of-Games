@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Registre image yokai
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
+  itemName: Registre image yokai
   itemIcon: {fileID: 0}
-  itemDescription: 
+  itemDescription: Un registre d'image de Yokai
   _IsUsable: 0
-  _IsKeyItem: 0
+  _IsKeyItem: 1
   _IsANote: 0
-  condition: 
+  condition: GetRegistreImageYokai
   useBlock: 
