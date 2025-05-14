@@ -8,6 +8,72 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chateau/SalleDeReunionTatami.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Camp/InterieurDuCamp.unity
+    guid: 733e6f86396c74548899383c2bf0f916
+  - enabled: 1
+    path: Assets/Scenes/Chateau/Archive.unity
+    guid: f6d396254dea18644a7914ebca32d79b
+  - enabled: 1
+    path: Assets/Scenes/Chateau/ArchiveSecret.unity
+    guid: 1f9f2c75a878fb14ab4c83f52dca271e
+  - enabled: 1
+    path: Assets/Scenes/Chateau/AtelierKotaro.unity
+    guid: 6533bac8a310b6945b4136037889b82a
+  - enabled: 1
+    path: Assets/Scenes/Chateau/BatimentDeLaChouette.unity
+    guid: 66f0bed71a5a2964cb8061754cb90321
+  - enabled: 1
+    path: Assets/Scenes/Chateau/ChambreFemmeSeigneur.unity
+    guid: 2d2af7e1cf189ea4b8c84a3ff9d6621c
+  - enabled: 1
+    path: Assets/Scenes/Chateau/ChambreKotaro.unity
+    guid: e8cb9be6c5a3b764da4b67ff9b6226e3
+  - enabled: 1
+    path: Assets/Scenes/Chateau/CouloirA.unity
+    guid: 01831304bfa05a8448971ead84edc408
+  - enabled: 1
+    path: Assets/Scenes/Chateau/CouloirB.unity
+    guid: 72d1a2b3d58773846bb5ccb69a8f7475
+  - enabled: 1
+    path: Assets/Scenes/Chateau/CouloirC.unity
+    guid: 94c834fb84bb2344389d7b9b658b1e29
+  - enabled: 1
+    path: Assets/Scenes/Chateau/CouloirD.unity
+    guid: eb31ac2f721bc944fa2a421f95ddf02f
+  - enabled: 1
+    path: Assets/Scenes/Chateau/RueHauteCitadelle.unity
+    guid: cc660d5d2e7fcb34a951304d8f6c7287
+  - enabled: 1
+    path: Assets/Scenes/Exterieur/Cascade.unity
+    guid: da2bd592f14c54c448628b8d4e0e27f9
+  - enabled: 1
+    path: Assets/Scenes/Exterieur/Grotte.unity
+    guid: ab0fc371967d1414d847fc0a34947aa1
+  - enabled: 1
+    path: Assets/Scenes/RueBasse/Bar.unity
+    guid: c5adc5d8ad700694e8b66cb39eecfcf9
+  - enabled: 1
+    path: Assets/Scenes/RueBasse/Dedalles.unity
+    guid: 9e296fa018ed69b45a01b5d85837f79e
+  - enabled: 1
+    path: Assets/Scenes/RueBasse/DedallesCulDeSac.unity
+    guid: 5f8e6344601b8d74ebe085cab80fbd9e
+  - enabled: 1
+    path: Assets/Scenes/RueBasse/RueBasseCitadelleDroite.unity
+    guid: e91e2e085cbef2147805189fec2de4f1
+  - enabled: 1
+    path: Assets/Scenes/RueBasse/RueBasseCitadelleGauche.unity
+    guid: d8252d7f79c4645459e8bfb530a3cbbd
+  - enabled: 1
+    path: Assets/Scenes/RueBasse/RueBasseCitadelleMilieu.unity
+    guid: 622ac05f8757980469ca2377964a4fc5
+  - enabled: 1
+    path: Assets/Scenes/Village/VillageDroite.unity
+    guid: 8164ea3e67983b54fa7e56a4daf7c716
+  - enabled: 1
+    path: Assets/Scenes/Village/VillageMilieu.unity
+    guid: dd1e5db6fe757fa43a9d1b8c82a559e0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
