@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 public class PlayerScript : MonoBehaviour
 {
     private Transform npcTarget = null;
+    [SerializeField] private GameObject _craftingUI;
 
     public static PlayerScript Instance;
 
@@ -49,6 +50,10 @@ public class PlayerScript : MonoBehaviour
                     FungusTrigger ft = npcTarget.GetComponent<FungusTrigger>();
                     ft?.Trigger();
                     npcTarget = null;
+                }
+                else if (hit.collider.CompareTag("Crafter"))
+                {
+                    _craftingUI.SetActive(true);
                 }
             }
         }
