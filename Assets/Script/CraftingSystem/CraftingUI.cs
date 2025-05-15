@@ -49,6 +49,7 @@ public class CraftingUI : MonoBehaviour
             foreach (var slot  in inputSlot) slot.Clear();
             outputSlot.SetItem(recipe.result);
             Inventory.Instance?.AddItem(recipe.result);
+            FlowchartManager.SetBoolVar("HasPowder");
         }
     }
 }
