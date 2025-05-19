@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1743428351362187631, guid: b22b8b59c3aeb3d10a607dc56ada6291, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 925f0c3255933663a84a0b80ba572210, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 1759454050}
   m_Layer: 0
   m_Name: Homme2
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -575,7 +575,7 @@ MonoBehaviour:
   block:
     block: {fileID: 0}
   fl: {fileID: 0}
-  trigger: {fileID: 0}
+  trigger: {fileID: 11400000, guid: c6d680af61f68e37f8dad6e9417b2838, type: 2}
   persistant: {fileID: 0}
 --- !u!70 &1759454051
 CapsuleCollider2D:
@@ -683,7 +683,7 @@ GameObject:
   - component: {fileID: 2132093242}
   m_Layer: 0
   m_Name: Femme1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
   block:
     block: {fileID: 0}
   fl: {fileID: 0}
-  trigger: {fileID: 0}
+  trigger: {fileID: 11400000, guid: ee8f47f3d48a519c1821bab055dac457, type: 2}
   persistant: {fileID: 0}
 --- !u!70 &2132093243
 CapsuleCollider2D:

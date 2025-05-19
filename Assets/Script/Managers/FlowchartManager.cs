@@ -35,7 +35,7 @@ public static class FlowchartManager
         if (string.IsNullOrEmpty(VarName)) { Debug.LogError("variable is null or empty !!"); return null; }
         if (_flowchart == null) { Debug.LogError("No Flowchart Assigned !!"); return null; }
         Fungus.BooleanVariable var = _flowchart.GetVariable<Fungus.BooleanVariable>(VarName);
-        if (var != null) { return var; }
+        if (var != null) { return var;}
         else { Debug.LogError($"Flowchart found but variable '{VarName}' does not exist"); return null; }
     }
    

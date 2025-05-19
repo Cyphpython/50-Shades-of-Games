@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
+
+    public static UIManager Instance;
+
     [Header("Map & Menu")]
     [SerializeField] private Canvas Map;
     [SerializeField] private GameObject InventoryPanel;
@@ -12,6 +15,11 @@ public class UIManager : MonoBehaviour
     public Flowchart _FL;
 
     private RectTransform Rt;
+
+    private void Awake() 
+    {
+        if (Instance == null) Instance = this; else Destroy(gameObject);
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,6 +32,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         Rt.sizeDelta = new Vector2(Screen.width / 4f, 0);
+        
     }
 
     public void OpenMap()

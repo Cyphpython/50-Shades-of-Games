@@ -55,6 +55,10 @@ public class PlayerScript : MonoBehaviour
                 {
                     _craftingUI.SetActive(true);
                 }
+                else if (hit.collider.CompareTag("Arrow"))
+                {
+                    UIManager.Instance?.OpenMap();
+                }
             }
         }
     }

@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Horloge
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemDescription: 
+  itemName: Horloge
+  itemIcon: {fileID: 21300000, guid: 7954c8def0ae9029bb5303bf3377c5ad, type: 3}
+  itemDescription: "e n\u2019ai vu qu\u2019une seule fois ce genre d\u2019objet chez
+    un marchand namban\_dans mon village natal."
   _IsUsable: 0
-  _IsKeyItem: 0
+  _IsKeyItem: 1
   _IsANote: 0
   condition: 
   useBlock: 

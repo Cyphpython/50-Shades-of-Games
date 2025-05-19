@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Casque
   m_EditorClassIdentifier: 
   ItemClass: 0
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemDescription: 
+  itemName: Casque
+  itemIcon: {fileID: 21300000, guid: 723fdd7c243ac37dfab415cec33acc20, type: 3}
+  itemDescription: "Quel \xE9trange casque. Un tissu l\u2019accompagne. On dirait
+    qu\u2019on s\u2019en est servi pour se prot\xE9ger le visage. Mais de quoi\_? "
   _IsUsable: 0
-  _IsKeyItem: 0
+  _IsKeyItem: 1
   _IsANote: 0
   condition: 
   useBlock: 

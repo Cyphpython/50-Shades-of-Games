@@ -9,6 +9,7 @@ TagManager:
   - Waypoint
   - UI
   - Crafter
+  - Arrow
   layers:
   - Default
   - TransparentFX

@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1495191191223858637, guid: 64ca86e16cc8fdde590d1702492f7e9e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7ebbfbfe15a1c6d887cb7c20daa2739, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -377,11 +377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block:
     block: {fileID: 0}
-  blockToPlayWhenSequenceComplete: 
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: aa58d1bdee348db42b0f378befaed560, type: 2}
   persistant: {fileID: 0}
-  direction: Droite
 --- !u!61 &1852394738
 BoxCollider2D:
   m_ObjectHideFlags: 0

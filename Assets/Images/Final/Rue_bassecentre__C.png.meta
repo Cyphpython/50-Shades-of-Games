@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: eb7ec96b11e1102b1adf25bfd7af0551
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3262808961504151130
+    second: Rue_bassecentre__C_0
+  - first:
+      213: -4346587676038377074
+    second: Rue_bassecentre__C_1
+  - first:
+      213: 8208585068070697110
+    second: Rue_bassecentre__C_2
+  - first:
+      213: -9189147402079370601
+    second: Rue_bassecentre__C_3
+  - first:
+      213: -3766410844073533601
+    second: Rue_bassecentre__C_4
+  - first:
+      213: -2061703087569324385
+    second: Rue_bassecentre__C_5
+  - first:
+      213: -78291877292902155
+    second: Rue_bassecentre__C_6
+  - first:
+      213: -4727714504678449304
+    second: Rue_bassecentre__C_7
+  - first:
+      213: -4518085849518547171
+    second: Rue_bassecentre__C_8
+  - first:
+      213: -4292508591648678816
+    second: Rue_bassecentre__C_9
+  - first:
+      213: 5966797148201230482
+    second: Rue_bassecentre__C_10
+  - first:
+      213: 6250276990273120252
+    second: Rue_bassecentre__C_11
+  - first:
+      213: 2038022947367124260
+    second: Rue_bassecentre__C_12
+  - first:
+      213: -6320740327320087150
+    second: Rue_bassecentre__C_13
+  - first:
+      213: 1507799723180432390
+    second: Rue_bassecentre__C_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1075
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a568a60a673d74d20800000000000000
+      internalID: 3262808961504151130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_1
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 600
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8154a0b981dda3c0800000000000000
+      internalID: -4346587676038377074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_2
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 592
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698fde2e0a0cae170800000000000000
+      internalID: 8208585068070697110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 541
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7920b5ebf17997080800000000000000
+      internalID: -9189147402079370601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_4
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 549
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f51d8ea450bbbc0800000000000000
+      internalID: -3766410844073533601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_5
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 493
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ba1917fb5363e0800000000000000
+      internalID: -2061703087569324385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_6
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 489
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f87821d3f9d9eef0800000000000000
+      internalID: -78291877292902155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_7
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 439
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fdd2dd4b8c36eb0800000000000000
+      internalID: -4727714504678449304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_8
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 447
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f5ab29bd88c41c0800000000000000
+      internalID: -4518085849518547171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 448
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cd777bd22fd64c0800000000000000
+      internalID: -4292508591648678816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_10
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 336
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290295194625ec250800000000000000
+      internalID: 5966797148201230482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_11
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 341
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7e609aec17db650800000000000000
+      internalID: 6250276990273120252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_12
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 301
+        width: 94
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d79ed9213884c10800000000000000
+      internalID: 2038022947367124260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_13
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 313
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295999839283848a0800000000000000
+      internalID: -6320740327320087150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rue_bassecentre__C_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c1a9c0cd7cce410800000000000000
+      internalID: 1507799723180432390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rue_bassecentre__C_0: 3262808961504151130
+      Rue_bassecentre__C_1: -4346587676038377074
+      Rue_bassecentre__C_10: 5966797148201230482
+      Rue_bassecentre__C_11: 6250276990273120252
+      Rue_bassecentre__C_12: 2038022947367124260
+      Rue_bassecentre__C_13: -6320740327320087150
+      Rue_bassecentre__C_14: 1507799723180432390
+      Rue_bassecentre__C_2: 8208585068070697110
+      Rue_bassecentre__C_3: -9189147402079370601
+      Rue_bassecentre__C_4: -3766410844073533601
+      Rue_bassecentre__C_5: -2061703087569324385
+      Rue_bassecentre__C_6: -78291877292902155
+      Rue_bassecentre__C_7: -4727714504678449304
+      Rue_bassecentre__C_8: -4518085849518547171
+      Rue_bassecentre__C_9: -4292508591648678816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
