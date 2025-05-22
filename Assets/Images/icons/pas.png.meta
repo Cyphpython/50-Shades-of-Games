@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f95d03c8213b7c641bc5fed829a77fb3
+guid: 269f1de5778990b44a5228f82c7e01cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3386319242318071292
-    second: couloirC_J_0
+      213: -8554815144539808780
+    second: pas_0
+  - first:
+      213: -7338018323447591108
+    second: pas_1
+  - first:
+      213: 3406096014149642001
+    second: pas_2
+  - first:
+      213: 5436304850632765495
+    second: pas_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: couloirC_J_0
+      name: pas_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 976
+        y: 1468
+        width: 369
+        height: 676
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40abf8137906101d0800000000000000
-      internalID: -3386319242318071292
+      spriteID: 4fb929e83f0374980800000000000000
+      internalID: -8554815144539808780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pas_1
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1162
+        width: 279
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f499b963f1a2a90800000000000000
+      internalID: -7338018323447591108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pas_2
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1179
+        width: 382
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11763425742e44f20800000000000000
+      internalID: 3406096014149642001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pas_3
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 863
+        width: 292
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730f2b87572a17b40800000000000000
+      internalID: 5436304850632765495
       vertices: []
       indices: 
       edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      couloirC_J_0: -3386319242318071292
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

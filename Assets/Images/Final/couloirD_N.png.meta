@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      couloirD_N_0: 6365139245489207051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

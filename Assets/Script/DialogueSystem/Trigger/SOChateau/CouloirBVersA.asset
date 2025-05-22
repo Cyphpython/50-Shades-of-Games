@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b65804302f55ccf4dbcde17c99f89a41, type: 3}
   m_Name: CouloirBVersA
   m_EditorClassIdentifier: 
-  TriggerName: 
+  TriggerName: CouloirBVersA

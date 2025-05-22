@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f95d03c8213b7c641bc5fed829a77fb3
+guid: 7c3c4f5a25600a64aa0c209e2262529b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3386319242318071292
-    second: couloirC_J_0
+      213: 8848834619649187856
+    second: damedocs_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: couloirC_J_0
+      name: damedocs_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 663
+        y: 944
+        width: 1592
+        height: 1013
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40abf8137906101d0800000000000000
-      internalID: -3386319242318071292
+      spriteID: 0106e5414306dca70800000000000000
+      internalID: 8848834619649187856
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      couloirC_J_0: -3386319242318071292
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

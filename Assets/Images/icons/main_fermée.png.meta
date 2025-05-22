@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f95d03c8213b7c641bc5fed829a77fb3
+guid: 2fb8c6eb30f14b54796dd8642d6f94dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3386319242318071292
-    second: couloirC_J_0
+      213: -2520573269521066210
+    second: "main_ferm\xE9e_0"
+  - first:
+      213: 2452668695057362436
+    second: "main_ferm\xE9e_1"
+  - first:
+      213: 5407873926540340513
+    second: "main_ferm\xE9e_2"
+  - first:
+      213: -2870975448434326292
+    second: "main_ferm\xE9e_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: couloirC_J_0
+      name: "main_ferm\xE9e_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 883
+        y: 1029
+        width: 1462
+        height: 947
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40abf8137906101d0800000000000000
-      internalID: -3386319242318071292
+      spriteID: e171ad747ff150dd0800000000000000
+      internalID: -2520573269521066210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "main_ferm\xE9e_1"
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 1448
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e6d90fe21a90220800000000000000
+      internalID: 2452668695057362436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "main_ferm\xE9e_2"
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1439
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12da88d1fa0ac0b40800000000000000
+      internalID: 5407873926540340513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "main_ferm\xE9e_3"
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1324
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4443d6a0f3828d0800000000000000
+      internalID: -2870975448434326292
       vertices: []
       indices: 
       edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      couloirC_J_0: -3386319242318071292
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
