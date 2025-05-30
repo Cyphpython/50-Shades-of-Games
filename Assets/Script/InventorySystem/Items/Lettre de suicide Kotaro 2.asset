@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemClass: 0
   itemName: Lettre de suicide kotaro deuxieme partie
-  itemIcon: {fileID: 21300000, guid: 615ecf391b0ba0b40a9c3882ac5e6afc, type: 3}
+  itemIcon: {fileID: 21300000, guid: 615861ff886063cc4824f4285fec5464, type: 3}
   itemDescription: une des deux partie de la lettre de suicide de mon frere
   _IsUsable: 1
   _IsKeyItem: 0
   _IsANote: 0
   condition: 
-  useBlock: 
+  useBlock: Lettre de suicide kotaro p2

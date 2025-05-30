@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private string SaveBlock;
 
     public Flowchart _FL;
+    public BlockReference Cascade;
 
     private RectTransform Rt;
 
@@ -57,5 +58,10 @@ public class UIManager : MonoBehaviour
         {
             _FL.ExecuteBlock(SaveBlock);
         }
+    }
+
+    public void GotoCascade()
+    {
+        if (Cascade.block != null) { Cascade.Execute(); }
     }
 }
