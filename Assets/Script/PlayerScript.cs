@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
 {
     private Transform npcTarget = null;
     [SerializeField] private GameObject _craftingUI;
+    public SpriteRenderer sr;
 
     public static PlayerScript Instance;
 
@@ -49,6 +50,8 @@ public class PlayerScript : MonoBehaviour
                     npcTarget = hit.collider.transform;
                     FungusTrigger ft = npcTarget.GetComponent<FungusTrigger>();
                     ft?.Trigger();
+                    sr = npcTarget.GetComponent<SpriteRenderer>();
+                    sr.enabled = false;
                     npcTarget = null;
                 }
                 else if (hit.collider.CompareTag("Crafter"))
