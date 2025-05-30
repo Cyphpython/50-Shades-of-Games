@@ -198,7 +198,7 @@ MonoBehaviour:
   block:
     block: {fileID: 0}
   fl: {fileID: 0}
-  trigger: {fileID: 0}
+  trigger: {fileID: 11400000, guid: 54ef8295d147fb4a49b43323a4d482a4, type: 2}
   persistant: {fileID: 0}
 --- !u!70 &266487446
 CapsuleCollider2D:
