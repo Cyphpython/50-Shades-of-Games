@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &193403283
 Transform:
   m_ObjectHideFlags: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: a5ce7cc0cbd2044179cf2592e7073d53, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &193403286
 CapsuleCollider2D:
@@ -429,6 +430,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: 96d819ba4fb40633eaac7bf9b77c3991, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &286570600
 CapsuleCollider2D:
@@ -587,6 +589,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: 2f7b28ac9dba0d9629965cdaff6241f0, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &308760320
 CapsuleCollider2D:
@@ -730,6 +733,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: 2d5c855ed579c0b18816ee1f5a4d8fd9, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &567304737
 CapsuleCollider2D:
@@ -842,7 +846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &646185805
 Transform:
   m_ObjectHideFlags: 0
@@ -888,6 +892,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: 690dc4691ca037940a46143a52f3c6c6, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &646185808
 CapsuleCollider2D:
@@ -1016,6 +1021,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: ab8288766582d9040ba284cb0c70b1ec, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!61 &788870972
 BoxCollider2D:
@@ -1198,6 +1204,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: e31266579ad1b0f748edfff575ab0f08, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &814029412
 CapsuleCollider2D:
@@ -1518,6 +1525,7 @@ MonoBehaviour:
     block: {fileID: 0}
   fl: {fileID: 0}
   trigger: {fileID: 11400000, guid: ac6e72bc3bcddac3bbd831b93f802c05, type: 2}
+  DarkBG: {fileID: 0}
   persistant: {fileID: 0}
 --- !u!70 &2007711938
 CapsuleCollider2D:

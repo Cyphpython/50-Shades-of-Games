@@ -17367,7 +17367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 333.4145, y: 206.83385}
+  scrollPos: {x: 248.3399, y: 187.43085}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -17379,9 +17379,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8172477461739294711}
+  - {fileID: 9140680276311482779}
   selectedCommands:
-  - {fileID: 3210925808501398508}
+  - {fileID: 5902991391009352405}
   variables:
   - {fileID: 2355350824680488037}
   - {fileID: 234478532551060642}
@@ -75827,7 +75827,7 @@ MonoBehaviour:
     n'en a l'air."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75854,7 +75854,7 @@ MonoBehaviour:
   storyText: "Observe donc et \xE9coute-moi attentivement."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75881,7 +75881,7 @@ MonoBehaviour:
   storyText: "Pour trouver le permier ingr\xE9dient, il te faudra trouver un Bakeneko."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75910,7 +75910,7 @@ MonoBehaviour:
     de l'attirer..."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75937,7 +75937,7 @@ MonoBehaviour:
   storyText: "J'ai m\xE9moire d'en avoir aper\xE7u un roder dans la citadelle."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75965,7 +75965,7 @@ MonoBehaviour:
     moins docile."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75992,7 +75992,7 @@ MonoBehaviour:
   storyText: "Je parle ici d'une Jorogumo, une femme araign\xE9e \xE0 la beaut\xE9...entoilante."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76046,7 +76046,7 @@ MonoBehaviour:
   storyText: Non ?
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76075,7 +76075,7 @@ MonoBehaviour:
     d'elles."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76131,7 +76131,7 @@ MonoBehaviour:
     se sons sold\xE9es par des \xE9checs."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76188,7 +76188,7 @@ MonoBehaviour:
     venir des r\xE9serves d'autres citadelle \xE0 temps."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76243,7 +76243,7 @@ MonoBehaviour:
     en attendant trouve les deux autres ingr\xE9dients."
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76270,7 +76270,7 @@ MonoBehaviour:
   storyText: "Par lequel de ces deux y\u014Dkai voudrais-tu commencer ?"
   description: 
   character: {fileID: 5299923510795861297}
-  portrait: {fileID: 21300000, guid: dec48dde1cde50eefb95c1ff9959b2c2, type: 3}
+  portrait: {fileID: -337037191, guid: 3d5695c304a0e0a4bad3aef491186c3f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -113197,6 +113197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _craftingUI: {fileID: 4596573238102690108}
+  sr: {fileID: 0}
 --- !u!1 &8804735795227350244
 GameObject:
   m_ObjectHideFlags: 0
